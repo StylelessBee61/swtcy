@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aslan\\dino_aslan\\",
+  "WorkspaceRootPath": "C:\\Users\\aslan\\Desktop\\dino_aslan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|c:\\users\\aslan\\dino_aslan\\assets\\scripts\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF3B6618-1CB0-571E-4804-1A0746A61C7C}|NaughtyAttributes.Editor.csproj|c:\\users\\aslan\\desktop\\dino_aslan\\assets\\naughtyattributes\\scripts\\editor\\utility\\reflectionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF3B6618-1CB0-571E-4804-1A0746A61C7C}|NaughtyAttributes.Editor.csproj|solutionrelative:assets\\naughtyattributes\\scripts\\editor\\utility\\reflectionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|c:\\users\\aslan\\desktop\\dino_aslan\\assets\\scripts\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|c:\\users\\aslan\\dino_aslan\\assets\\scripts\\popupui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|c:\\users\\aslan\\desktop\\dino_aslan\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|C:\\Users\\aslan\\Desktop\\dino_aslan\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|C:\\Users\\aslan\\Desktop\\dino_aslan\\assets\\scripts\\popupui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601498A7-546D-E3CB-13B6-5460C583E5AB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,33 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PopupUI.cs",
-              "DocumentMoniker": "C:\\Users\\aslan\\dino_aslan\\Assets\\Scripts\\PopupUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupUI.cs",
-              "ToolTip": "C:\\Users\\aslan\\dino_aslan\\Assets\\Scripts\\PopupUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PopupUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReflectionUtility.cs",
+              "DocumentMoniker": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\NaughtyAttributes\\Scripts\\Editor\\Utility\\ReflectionUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\NaughtyAttributes\\Scripts\\Editor\\Utility\\ReflectionUtility.cs",
+              "ToolTip": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\NaughtyAttributes\\Scripts\\Editor\\Utility\\ReflectionUtility.cs",
+              "RelativeToolTip": "Assets\\NaughtyAttributes\\Scripts\\Editor\\Utility\\ReflectionUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T03:47:08.127Z",
+              "WhenOpened": "2026-09-27T01:39:29.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UIWindow.cs",
-              "DocumentMoniker": "C:\\Users\\aslan\\dino_aslan\\Assets\\Scripts\\UIWindow.cs",
+              "DocumentMoniker": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\UIWindow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIWindow.cs",
-              "ToolTip": "C:\\Users\\aslan\\dino_aslan\\Assets\\Scripts\\UIWindow.cs",
+              "ToolTip": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\UIWindow.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIWindow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T03:43:48.202Z",
+              "WhenOpened": "2026-09-27T01:31:36.866Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:30:49.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PopupUI.cs",
+              "DocumentMoniker": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\PopupUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupUI.cs",
+              "ToolTip": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\PopupUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopupUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:30:05.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\aslan\\Desktop\\dino_aslan\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:23:55.666Z"
             }
           ]
         }
