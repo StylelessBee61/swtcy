@@ -124,8 +124,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 945521271427859196, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1535633184654832143, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2775356281984536475}
   m_SourcePrefab: {fileID: 100100000, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
+--- !u!1 &296118035914940997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1535633184654832143, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
+  m_PrefabInstance: {fileID: 1248534993528737866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2775356281984536475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296118035914940997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f5670b2feedae4dad40ef9f320b8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuUI
+  _id: 
+  _canvasRectTransform: {fileID: 0}
+  _canvasGroup: {fileID: 0}
+  _hideOnStart: 0
+  _showDuration: 0.5
+  _hideDuration: 0.5
+  _showEase: 27
+  _hideEase: 26

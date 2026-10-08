@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 8829067821082905948}
   - component: {fileID: 2510541492061654216}
   m_Layer: 5
-  m_Name: CreditsCavas
+  m_Name: SettingsCavas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1462,7 +1462,7 @@ GameObject:
   - component: {fileID: 1164347553695278290}
   - component: {fileID: 8760216521549744960}
   m_Layer: 5
-  m_Name: CanvasGroup
+  m_Name: SettingsGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

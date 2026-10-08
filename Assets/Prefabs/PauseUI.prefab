@@ -167,14 +167,43 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8924684967160984245, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8230665133917196488, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2064310965552402878}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8075011163803675471, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 945521271427859196}
   m_SourcePrefab: {fileID: 100100000, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+--- !u!1 &1535633184654832143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8075011163803675471, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+  m_PrefabInstance: {fileID: 7304726308162099520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &945521271427859196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535633184654832143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294a2c98bf619a04389c5d1c361c21af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseUI
+  _id: 
+  _canvasRectTransform: {fileID: 0}
+  _canvasGroup: {fileID: 0}
+  _hideOnStart: 0
+  _showDuration: 0.5
+  _hideDuration: 0.5
+  _showEase: 27
+  _hideEase: 26
 --- !u!224 &1686223903822711176 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8230665133917196488, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
