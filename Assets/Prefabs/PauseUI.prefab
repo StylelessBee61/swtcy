@@ -27,15 +27,15 @@ RectTransform:
   m_GameObject: {fileID: 3484656475542293763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5348078, y: 0.606544, z: 0.123643085}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1686223903822711176}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -58}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 8.6467285, y: -171.76831}
+  m_SizeDelta: {x: 306.25, y: 254.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2333247228574385252
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 016fabe1f9a675245b582cec9a82e448, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -87,17 +87,21 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3439980469551825741, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1183
+      objectReference: {fileID: 0}
     - target: {fileID: 3894979762446857674, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f34ce570e3e86f74b99ba1cd7c1b47db, type: 3}
     - target: {fileID: 3932971664382631974, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1087.468
       objectReference: {fileID: 0}
     - target: {fileID: 3932971664382631974, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1036
       objectReference: {fileID: 0}
     - target: {fileID: 3932971664382631974, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -132,8 +136,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5197603635401967224, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.646687
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197603635401967224, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 34
+      value: 118.917725
       objectReference: {fileID: 0}
     - target: {fileID: 5541590919442502394, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
       propertyPath: m_Name
@@ -196,9 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294a2c98bf619a04389c5d1c361c21af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseUI
-  _id: 
-  _canvasRectTransform: {fileID: 0}
-  _canvasGroup: {fileID: 0}
+  _id: PauseUI
+  _canvasRectTransform: {fileID: 6898494227575454140}
+  _canvasGroup: {fileID: 5329852954828168209}
   _hideOnStart: 0
   _showDuration: 0.5
   _hideDuration: 0.5
@@ -207,5 +215,15 @@ MonoBehaviour:
 --- !u!224 &1686223903822711176 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8230665133917196488, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+  m_PrefabInstance: {fileID: 7304726308162099520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &5329852954828168209 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 3218078008412374353, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
+  m_PrefabInstance: {fileID: 7304726308162099520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &6898494227575454140 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4243453059705102588, guid: 60863c21ed90dde4fb637fa7b5914a2a, type: 3}
   m_PrefabInstance: {fileID: 7304726308162099520}
   m_PrefabAsset: {fileID: 0}

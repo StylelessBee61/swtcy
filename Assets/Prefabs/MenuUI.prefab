@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 1427336272580564556, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8adeece95d32f3940aaf3c94d1c6dc18, type: 3}
+      objectReference: {fileID: 21300000, guid: 6a5dbc5b523d42349afd9e5a66b6ea3f, type: 3}
     - target: {fileID: 1427336272580564556, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3006212625942268858, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_Name
-      value: MenuCavas
+      value: GameOverCavas
       objectReference: {fileID: 0}
     - target: {fileID: 3278058780962201400, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -79,18 +79,22 @@ PrefabInstance:
     - target: {fileID: 4322937203123761819, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 814be9856999ab242929f284c6d0fd7f, type: 3}
+      objectReference: {fileID: 21300000, guid: 3718f82056350ac4ab0ec3c4274addcf, type: 3}
+    - target: {fileID: 5396119270211508749, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1186
+      objectReference: {fileID: 0}
     - target: {fileID: 6003903674907700362, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ebad0440d2a84754ca6b939d137c56e8, type: 3}
+      objectReference: {fileID: 21300000, guid: 9edd4e2cdc6f53945ba4eea8a3e06b41, type: 3}
     - target: {fileID: 6037956026958346598, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6037956026958346598, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -610
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6037956026958346598, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       propertyPath: m_LocalPosition.z
@@ -131,14 +135,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1535633184654832143, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2775356281984536475}
+      addedObject: {fileID: 2804075347005656914}
   m_SourcePrefab: {fileID: 100100000, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
 --- !u!1 &296118035914940997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1535633184654832143, guid: 05165be2cfc313e419b4e93426fd3103, type: 3}
   m_PrefabInstance: {fileID: 1248534993528737866}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2775356281984536475
+--- !u!114 &2804075347005656914
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,9 +151,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 296118035914940997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39f5670b2feedae4dad40ef9f320b8ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 33f7dfe415196a6489deb7aec38251cb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuUI
+  m_EditorClassIdentifier: Assembly-CSharp::GameOverUI
   _id: 
   _canvasRectTransform: {fileID: 0}
   _canvasGroup: {fileID: 0}
