@@ -42,7 +42,7 @@ public class UIManager : MonoBehaviour
     {
         foreach (var window in _uiWindows)
         {
-            if (window.WindowId == windowName)
+            if (window.WindowID == windowName)
             {
                 window.Hide();
                 return;

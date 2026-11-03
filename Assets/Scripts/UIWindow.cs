@@ -1,3 +1,4 @@
+
 using DG.Tweening;
 using NaughtyAttributes;
 using UnityEngine;
@@ -10,7 +11,7 @@ public class UIWindow : MonoBehaviour
     [Header("UI Settings")]
     [SerializeField] private RectTransform _canvasRectTransform;
     [SerializeField] private CanvasGroup _canvasGroup;
-    [SerializeField] private bool _hideOnStart;
+    [SerializeField] private bool _hideOnStart = true;
 
     [Header("Animation Settings")]
     [SerializeField] private float _showDuration = 0.5f;
@@ -19,14 +20,10 @@ public class UIWindow : MonoBehaviour
     [SerializeField] private Ease _showEase = Ease.OutBack;
     [SerializeField] private Ease _hideEase = Ease.InBack;
 
-
-
     public CanvasGroup CanvasGroup => _canvasGroup;
     public RectTransform CanvasRectTransform => _canvasRectTransform;
     public string Id => _id;
-
-    public string WindowId { get; internal set; }
-    public string WindowID { get; internal set; }
+    public string WindowID => _id;
 
     void Start()
     {
@@ -36,39 +33,49 @@ public class UIWindow : MonoBehaviour
     public virtual void Initialize()
     {
         if (_hideOnStart)
-        {
-            Hide();
-        }
+            Hide(true);
     }
 
     [Button("Show Window")]
     public virtual void Show(bool instant = false)
     {
+        _canvasRectTransform.gameObject.SetActive(true);
+
+        _canvasGroup.DOKill();
+
         if (instant)
         {
-            _canvasRectTransform.gameObject.SetActive(true);
+            _canvasGroup.alpha = 1f;
+            _canvasGroup.transform.localScale = Vector3.one;
+            return;
         }
-        else
-        {
-            _canvasRectTransform.gameObject.SetActive(true);
-            RectTransform rectTransform = _canvasGroup.GetComponent<RectTransform>();
-            rectTransform.DOScale(Vector3.one, _showDuration).SetEase(_showEase);
-        }
+
+        _canvasGroup.alpha = 1f;
+        _canvasGroup.transform.localScale = Vector3.zero;
+
+        _canvasGroup.transform.DOScale(Vector3.one, _showDuration)
+            .SetEase(_showEase);
     }
 
     [Button("Hide Window")]
     public virtual void Hide(bool instant = false)
     {
+        _canvasGroup.DOKill();
+
         if (instant)
         {
+            _canvasGroup.alpha = 0f;
+            _canvasGroup.transform.localScale = Vector3.zero;
             _canvasRectTransform.gameObject.SetActive(false);
+            return;
         }
-        else
-        {
-            RectTransform rectTransform = _canvasGroup.GetComponent<RectTransform>();
-            rectTransform.DOScale(Vector3.zero, _hideDuration).SetEase(_hideEase).OnComplete(() => _canvasRectTransform.gameObject.SetActive(false));
-        }
+
+        _canvasGroup.transform.DOScale(Vector3.zero, _hideDuration)
+            .SetEase(_hideEase)
+            .OnComplete(() =>
+            {
+                _canvasGroup.alpha = 0f;
+                _canvasRectTransform.gameObject.SetActive(false);
+            });
     }
-
 }
-
