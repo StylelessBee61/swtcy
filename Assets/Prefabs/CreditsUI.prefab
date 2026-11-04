@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5918363256766155178, guid: bff093071fad7fe4fbd211882b66e87e, type: 3}
       propertyPath: m_text
-      value: Creditos
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 5918363256766155178, guid: bff093071fad7fe4fbd211882b66e87e, type: 3}
       propertyPath: m_fontSize
@@ -246,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 7182918704691523127, guid: bff093071fad7fe4fbd211882b66e87e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612186186451467959, guid: bff093071fad7fe4fbd211882b66e87e, type: 3}
+      propertyPath: m_Name
+      value: CreditsGroup
       objectReference: {fileID: 0}
     - target: {fileID: 8829067821082905948, guid: bff093071fad7fe4fbd211882b66e87e, type: 3}
       propertyPath: m_ReferenceResolution.x

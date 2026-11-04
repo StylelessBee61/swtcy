@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using NUnit.Framework;
@@ -9,6 +10,7 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance { get; private set; }
 
     [SerializeField] private List<UIWindow> _uiWindows;
+
 
     private void Awake()
     {
