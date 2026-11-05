@@ -1,4 +1,5 @@
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +20,32 @@ public class UIManager : MonoBehaviour
         Instance = this;
     }
 
+    private IEnumerator Start()
+    {
+        yield return null;
+
+        foreach (UIWindow window in _uiWindows)
+        {
+            if (window != null)
+                window.Hide(true);
+        }
+
+        if (GameManager.Instance != null &&
+            GameManager.Instance.IsPaused)
+        {
+            Debug.Log("MOSTRANDO PAUSE UI");
+            ShowWindow("PauseUI");
+        }
+        else if (GameManager.WasGameOver)
+        {
+            ShowWindow("GameOverUI");
+        }
+        else
+        {
+            ShowWindow("MenuUI");
+        }
+    }
+
     public void ShowWindow(string windowName)
     {
         foreach (UIWindow window in _uiWindows)
@@ -33,6 +60,8 @@ public class UIManager : MonoBehaviour
         Debug.LogWarning("No se encontró la ventana: " + windowName);
     }
 
+    
+
     public void HideWindow(string windowName)
     {
         foreach (UIWindow window in _uiWindows)
@@ -43,7 +72,5 @@ public class UIManager : MonoBehaviour
                 return;
             }
         }
-
-        Debug.LogWarning("No se encontró la ventana: " + windowName);
     }
 }
