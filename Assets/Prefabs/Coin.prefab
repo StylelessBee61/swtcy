@@ -77,7 +77,7 @@ PrefabInstance:
       addedObject: {fileID: 6723667683599851849}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: add94ca174941844bb309fb156567af5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -6375996467070060379}
+      addedObject: {fileID: -5460975451298453247}
   m_SourcePrefab: {fileID: 100100000, guid: add94ca174941844bb309fb156567af5, type: 3}
 --- !u!1 &1590031998326811100 stripped
 GameObject:
@@ -105,7 +105,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999995, y: 0.3992107, z: 0.07}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-6375996467070060379
+--- !u!114 &-5460975451298453247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,6 +114,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1590031998326811100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8404c614c13f09f498e1a3244b78fc30, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b1be08a1724b084cac79b1064f049f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin

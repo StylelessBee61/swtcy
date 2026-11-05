@@ -1,8 +1,5 @@
 
-using System;
 using System.Collections.Generic;
-using NUnit.Framework;
-using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class UIManager : MonoBehaviour
@@ -11,7 +8,6 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private List<UIWindow> _uiWindows;
 
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -19,36 +15,35 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
-    }
-
-
-
-    void Start()
-    {
     }
 
     public void ShowWindow(string windowName)
     {
-        foreach (var window in _uiWindows)
+        foreach (UIWindow window in _uiWindows)
         {
-            if (window.WindowID == windowName)
+            if (window != null && window.WindowID == windowName)
             {
                 window.Show();
                 return;
             }
         }
+
+        Debug.LogWarning("No se encontró la ventana: " + windowName);
     }
 
     public void HideWindow(string windowName)
     {
-        foreach (var window in _uiWindows)
+        foreach (UIWindow window in _uiWindows)
         {
-            if (window.WindowID == windowName)
+            if (window != null && window.WindowID == windowName)
             {
                 window.Hide();
                 return;
             }
         }
+
+        Debug.LogWarning("No se encontró la ventana: " + windowName);
     }
 }

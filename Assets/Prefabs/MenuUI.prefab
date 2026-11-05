@@ -571,7 +571,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2579229709956729137}
-  - component: {fileID: 6465981619662692265}
+  - component: {fileID: 5173126382454639574}
   m_Layer: 5
   m_Name: MenuUI
   m_TagString: Untagged
@@ -579,23 +579,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2579229709956729137
-Transform:
+--- !u!224 &2579229709956729137
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7635292270128204121}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 539.77954, y: -0.00001, z: 1447.9503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8423580592367212169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6465981619662692265
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1278, y: 593}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5173126382454639574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -607,12 +611,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f5670b2feedae4dad40ef9f320b8ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuUI
-  _id: Menu UI
+  _id: MenuUI
   _canvasRectTransform: {fileID: 8423580592367212169}
   _canvasGroup: {fileID: 424409503403774180}
-  _hideOnStart: 0
+  _hideOnStart: 1
   _showDuration: 0.5
-  _hideDuration: 0.5
+  _hideDuration: 0.3
   _showEase: 27
   _hideEase: 26
 --- !u!1 &8087176978361479897
